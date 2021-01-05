@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec  3 21:29:14 2020
+# Process ID: 20196
+# Current directory: C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Digital_Logic_Design_TP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23912 C:\Users\pc\Desktop\DGIST\2 - Sophomore\2nd semester\Digital Logic Design\Digital_Logic_Design_TP\Final.xpr
+# Log file: C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Digital_Logic_Design_TP/vivado.log
+# Journal file: C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Digital_Logic_Design_TP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Digital_Logic_Design_TP/Final.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Digital_Logic_Design_TP'
+INFO: [Project 1-313] Project file moved from 'C:/Users/pc/Desktop/Digital_Logic_Design_TP' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Team Project/calculator_top.vhd', nor could it be found using path 'C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Team Project/calculator_top.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:12 . Memory (MB): peak = 1013.656 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  3 21:32:00 2020...

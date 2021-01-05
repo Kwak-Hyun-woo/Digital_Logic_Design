@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec  3 21:36:45 2020
+# Process ID: 23324
+# Current directory: C:/Users/pc/Desktop/Digital_Logic_Design_TP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6148 C:\Users\pc\Desktop\Digital_Logic_Design_TP\Final.xpr
+# Log file: C:/Users/pc/Desktop/Digital_Logic_Design_TP/vivado.log
+# Journal file: C:/Users/pc/Desktop/Digital_Logic_Design_TP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pc/Desktop/Digital_Logic_Design_TP/Final.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Digital_Logic_Design_TP' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/pc/Desktop/Team Project/calculator_top.vhd', nor could it be found using path 'C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Team Project/calculator_top.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Team Project/calculator_top.vhd', nor could it be found using path 'C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Team Project/calculator_top.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:09 . Memory (MB): peak = 1013.086 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Team Project/calculator_top.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/pc/Desktop/DGIST/2 - Sophomore/2nd semester/Digital Logic Design/Team Project/calculator_top.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/pc/Desktop/Team Project/calculator_top.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/pc/Desktop/Team Project/calculator_top.vhd}}
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  3 21:38:08 2020...
